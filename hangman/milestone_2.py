@@ -1,11 +1,11 @@
-from random import choice
+from random import choice as random_word_choice
 import string
+
 
 word_list = ["Apple", "Banana", "Orange", "Mango", "Pear"]
 
-# print(word_list)
+word = random_word_choice(word_list)
 
-word = choice(word_list)
 
 print("Please make a single letter guess")
 while True:
@@ -17,3 +17,4 @@ while True:
         "Oops! That is not a valid input."
 
 print(guess)
+#test
