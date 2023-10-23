@@ -9,6 +9,7 @@ This project is an implementation of the Hangman game, where the computer select
 ## Installation
 
 Developed on Python version 3.8.8
+
 3rd party libraries required for full experience - `nltk`
 
 ## Usage
